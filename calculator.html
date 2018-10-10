@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>assignment1</title>
+	<script type="text/javascript" src="calculator.js"></script>
+</head>
+<body>
+<center>
+<form style="background-color: cyan;width:60%;margin-top: 50px; border: 2px; padding: 5px">
+<div>
+	<P style="color:green; font-size: 60px"> calculate </P>
+</div>
+<div>
+	X value:&nbsp&nbsp<input type="text" name="x" placeholder="eg:1,2,3,.." id="a">
+</div><br><br>
+<div>
+	
+	Y value:&nbsp&nbsp<input type="text" name="y" placeholder="eg:1,2,3,.." id="b">
+</div><br><br>
+<div style="margin-left: 2%">
+operator:<select id="c">
+		<option value="+">plus</option>
+		<option value="-">minus</option>
+		<option value="*">multiplication</option>
+		<option value="/">division</option>
+	</select>
+</div><br><br>
+<input type="button" value="submit" id="z" onclick="calc()" style="margin-left: 10%">
+<br><br>
+<div style="margin-right: 2%">
+	Result:&nbsp<input type="text"  id="d" >
+</div>
+
+</form>
+</center>
+</body>
+</html>

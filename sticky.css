@@ -1,0 +1,28 @@
+html, body, .wrap {
+  height: 100%;
+}
+.wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -60px;
+  /* for sticky footer to not go below page */
+  padding-top: 60px;
+  /* for sticky header to not overlap content */
+}
+.push, .footer {
+  height: 60px;
+}
+.footer {
+  background-color: green;
+}
+.content {
+  background-color: yellow;
+}
+.header {
+  background-color: blue;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
